@@ -26,4 +26,4 @@ for filename in os.listdir(input_folder):
             shutil.copy(file_path, os.path.join(output_folder, filename))
             print(f"{filename} copied to no_blur folder")
 
-print("Blur-free file copy is complete!")
+print("no_blur file copy is complete!")
